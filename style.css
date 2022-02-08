@@ -7,15 +7,21 @@ html {
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
     background-color: aliceblue;
+    color: #2a2aaf;
     font-weight: 700;
     text-transform: uppercase; 
     margin: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    opacity: 80%;
-
+    padding-top: 25px;
+    padding-bottom: 25px;
+    opacity: 70%;
+    text-decoration: wavy;
+    text-justify:auto;    
+    text-align: center;
+    border: green 25px;
+    border-radius: 5px;
 
 }
 
@@ -28,7 +34,7 @@ footer {
     padding-bottom: 5px;
     color: aliceblue;
     opacity: 60%;
-    font-weight: 100;
+    font-style: 5rem;
 }
 
 img {
@@ -36,13 +42,14 @@ img {
     margin: 1.25%;
     float: left;
     border: #00f 15px;
+    border-radius: 15px;
 }
 
 body {
     background-image: url(Images/ScreenShot00292.png);
     background-position: center;
     background-attachment: fixed;
-opacity: 90%;
+    opacity: 90%;
+    border-radius: 5px;
 
 }
-
