@@ -1,0 +1,48 @@
+html {
+    background-color: rgb(4, 5, 51);
+    text-align: center;
+    border-bottom: 2.5px solid #00f;
+    padding: .5px;
+
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;    
+    background-color: aliceblue;
+    font-weight: 700;
+    text-transform: uppercase; 
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 80%;
+
+
+}
+
+footer {
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 1vw;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: aliceblue;
+    opacity: 60%;
+    font-weight: 100;
+}
+
+img {
+    width: 22.5%;
+    margin: 1.25%;
+    float: left;
+    border: #00f 15px;
+}
+
+body {
+    background-image: url(Images/ScreenShot00292.png);
+    background-position: center;
+    background-attachment: fixed;
+opacity: 90%;
+
+}
+
