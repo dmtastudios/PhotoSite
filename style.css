@@ -1,28 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
 html {
     background-color: rgb(4, 5, 51);
     text-align: center;
     padding: .5px;
-    
+
 }
 
 h1 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Share Tech Mono', monospace;
     font-style: italic;
     background-color: aliceblue;
     color: #2a2aaf;
-    font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase; 
     margin: auto;
     padding-top: 25px;
     padding-bottom: 25px;
     opacity: 70%;
-    text-decoration: wavy;
-    text-justify:auto;    
     text-align: center;
     border: rgb(51, 50, 50) 25px;
     border-radius: 5px;
     border-style: dashed;
+    border-width: 15px;
 }
+
+
+img {
+    width: 22.5%;
+    margin: 1.25%;
+    float: left;
+    border: #00f 15px;
+    border-radius: 15px;
+    image-rendering: optimizeQuality;   
+}
+
+body {
+    background-image: url(Images/ScreenShot00292.png);
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 90%;
+    border-radius: 5px; 
+
+}
+
 
 footer {
     font-family: 'Ubuntu',sans-serif;
@@ -34,22 +55,4 @@ footer {
     color: aliceblue;
     opacity: 60%;
     font-style: 5rem;
-}
-
-img {
-    width: 22.5%;
-    margin: 1.25%;
-    float: left;
-    border: #00f 15px;
-    border-radius: 15px;
-    image-rendering: optimizeQuality;
-}
-
-body {
-    background-image: url(Images/ScreenShot00292.png);
-    background-position: center;
-    background-attachment: fixed;
-    opacity: 90%;
-    border-radius: 5px;
-
 }
